@@ -1,0 +1,50 @@
+.NewRent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .newRentForm {
+        background-color: #dddfe3;
+        display: flex;
+        border-radius: 7px;
+        
+        .name {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        .rooms {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        .rentPrice {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        .submit {
+            margin: 15px 10px;
+            width: 80px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: rgb(13, 201, 0);
+            color: white;
+            border-color: #dddfe3;
+        }
+
+        .submit:disabled{
+            background-color: grey;
+        }
+
+    }
+}
